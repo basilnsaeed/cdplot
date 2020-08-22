@@ -8,7 +8,7 @@ def draw_dag(dag):
     draw_graph(dag.nodes, dag.arcs)
 
 def draw_mag(mag):
-    draw_graph(mag.node, mag.directed, mag.bidirected)
+    draw_graph(mag.nodes, mag.directed, mag.bidirected)
 
 def draw_graph(nodes, directed, bidirected =set()):
 
